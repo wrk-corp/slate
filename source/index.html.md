@@ -28,7 +28,7 @@ Welcome to the Wrk API. You can use our API to access a list of Jobs for an Orga
 
 ```shell
 curl -H "Content-Type: application/json" \
-  https://hire.wrkhq.com/api/v1/public/organizations/helium/jobs
+  https://hire.wrkhq.com/api/v1/public/organizations/aperturelabs/jobs
 ```
 
 > The above command returns JSON structured like this:
@@ -78,16 +78,16 @@ This endpoint retrieves all Jobs for an Organization.
 
 ### HTTP Request
 
-`GET https://wrkhq.com/api/v1/public/jobs/`
+`GET https://hire.wrkhq.com/api/v1/public/organizations/aperturelabs/jobs`
 
-<aside class="success">
+<!-- <aside class="success">
 Jobs are awesome and super useful
-</aside>
+</aside> -->
 
 ## Get a Specific Job
 
 ```shell
-curl -H "Content-Type: application/json" https://hire.wrkhq.com/api/v1/public/organizations/helium/jobs/18012
+curl -H "Content-Type: application/json" https://hire.wrkhq.com/api/v1/public/organizations/aperturelabs/jobs/15397
 ```
 
 > The above command returns JSON structured like this:
