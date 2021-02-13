@@ -93,7 +93,8 @@ Jobs are awesome and super useful
 ## Get a Specific Job
 
 ```shell
-curl -H "Content-Type: application/json" https://hire.wrkhq.com/api/v1/public/organizations/aperturelabs/jobs/15397
+curl -H "Content-Type: application/json" \
+  https://hire.wrkhq.com/api/v1/public/organizations/aperturelabs/jobs/15397
 ```
 
 > The above command returns JSON structured like this:
